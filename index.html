@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas HTML</title>
+</head>
+
+<body>
+    <h1>Etiquetas HTML</h1>
+
+    <main>
+        <ol>
+            <!-- Ejemplo de etiqueta <!DOCTYPE html> -->
+            <li>
+                <h2>&lt;!DOCTYPE html&gt;</h2>
+                <p><strong>Descripción:</strong> Declara el tipo de documento y la versión de HTML que se está
+                    utilizando. En HTML5, la declaración es simple y se coloca en la primera línea del documento.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;!DOCTYPE html&gt;</pre>
+                <p><strong>Información adicional:</strong> Esta declaración no es una etiqueta HTML, pero es esencial
+                    para que los navegadores interpreten correctamente el documento como HTML5.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <html> -->
+            <li>
+                <h2>&lt;html&gt;</h2>
+                <p><strong>Descripción:</strong> Define el inicio y el final de un documento HTML. Es el elemento raíz
+                    que contiene todo el contenido del documento, incluyendo los elementos <code>&lt;head&gt;</code> y
+                    <code>&lt;body&gt;</code>.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;Título del Documento&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Hola Mundo&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>lang</code> se usa para especificar el
+                    idioma del documento.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <head> -->
+            <li>
+                <h2>&lt;head&gt;</h2>
+                <p><strong>Descripción:</strong> Contiene metadatos (datos sobre datos) del documento, como el título,
+                    enlaces a hojas de estilo, y scripts.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Título del Documento&lt;/title&gt;
+&lt;/head&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;head&gt;</code> no se muestra en la
+                    página web, pero es esencial para configurar el documento HTML.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <title> -->
+            <li>
+                <h2>&lt;title&gt;</h2>
+                <p><strong>Descripción:</strong> Define el título del documento que se muestra en la barra de título del
+                    navegador o en la pestaña.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;head&gt;
+    &lt;title&gt;Título de la Página&lt;/title&gt;
+&lt;/head&gt;</pre>
+                <p><strong>Información adicional:</strong> El contenido de <code>&lt;title&gt;</code> debe ser breve y
+                    descriptivo para ayudar a los usuarios a identificar la página.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <link> -->
+            <li>
+                <h2>&lt;link&gt;</h2>
+                <p><strong>Descripción:</strong> Define una relación entre el documento actual y un recurso externo,
+                    comúnmente utilizado para enlazar hojas de estilo.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;link rel="stylesheet" href="estilos.css"&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>rel</code> define la relación entre el
+                    documento y el recurso, y el atributo <code>href</code> especifica la URL del recurso.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <meta> -->
+            <li>
+                <h2>&lt;meta&gt;</h2>
+                <p><strong>Descripción:</strong> Proporciona metadatos sobre el documento, como la codificación de
+                    caracteres, la descripción, y las palabras clave.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;meta charset="UTF-8"&gt;
+&lt;meta name="description" content="Descripción de la página"&gt;
+&lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;</pre>
+                <p><strong>Información adicional:</strong> Los metadatos proporcionan información adicional a los
+                    navegadores y motores de búsqueda.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <style> -->
+            <li>
+                <h2>&lt;style&gt;</h2>
+                <p><strong>Descripción:</strong> Define estilos CSS para el documento. Los estilos se aplican a los
+                    elementos HTML dentro del documento.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;style&gt;
+    body {
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        color: #333;
+    }
+&lt;/style&gt;</pre>
+                <p><strong>Información adicional:</strong> Los estilos dentro del elemento <code>&lt;style&gt;</code>
+                    afectan a todos los elementos HTML dentro del documento.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <script> -->
+            <li>
+                <h2>&lt;script&gt;</h2>
+                <p><strong>Descripción:</strong> Define un bloque de código JavaScript. Se puede colocar en el
+                    <code>&lt;head&gt;</code> o al final del <code>&lt;body&gt;</code>.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;script&gt;
+    alert('Hola Mundo');
+&lt;/script&gt;</pre>
+                <p><strong>Información adicional:</strong> Puedes usar el atributo <code>src</code> para cargar un
+                    archivo JavaScript externo.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <body> -->
+            <li>
+                <h2>&lt;body&gt;</h2>
+                <p><strong>Descripción:</strong> Define el contenido visible del documento HTML, incluyendo texto,
+                    imágenes, enlaces y otros elementos HTML.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;body&gt;
+    &lt;h1&gt;Encabezado Principal&lt;/h1&gt;
+    &lt;p&gt;Este es un párrafo de texto.&lt;/p&gt;
+&lt;/body&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;body&gt;</code> contiene todo el
+                    contenido que se muestra en la página web.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <nav> -->
+            <li>
+                <h2>&lt;nav&gt;</h2>
+                <p><strong>Descripción:</strong> Define un bloque de navegación, comúnmente utilizado para contener
+                    enlaces a otras páginas o secciones del sitio web.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;nav&gt;
+    &lt;a href="index.html"&gt;Inicio&lt;/a&gt;
+    &lt;a href="servicios.html"&gt;Servicios&lt;/a&gt;
+    &lt;a href="contacto.html"&gt;Contacto&lt;/a&gt;
+&lt;/nav&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;nav&gt;</code> ayuda a los motores de
+                    búsqueda y a los usuarios a encontrar fácilmente las secciones de navegación del sitio web.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <main> -->
+            <li>
+                <h2>&lt;main&gt;</h2>
+                <p><strong>Descripción:</strong> Define el contenido principal de un documento, excluyendo los
+                    encabezados, pies de página, y elementos de navegación. Debe aparecer solo una vez por documento.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;main&gt;
+    &lt;h1&gt;Bienvenido a Nuestro Sitio&lt;/h1&gt;
+    &lt;p&gt;Aquí encontrarás la información más relevante y principal del sitio.&lt;/p&gt;
+&lt;/main&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;main&gt;</code> mejora la accesibilidad
+                    y el SEO al identificar claramente el contenido principal del documento.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <section> -->
+            <li>
+                <h2>&lt;section&gt;</h2>
+                <p><strong>Descripción:</strong> Define una sección temática dentro de un documento. Puede incluir un
+                    encabezado y se utiliza para agrupar contenido relacionado.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;section&gt;
+    &lt;h2&gt;Nuestro Equipo&lt;/h2&gt;
+    &lt;p&gt;Conoce a los miembros de nuestro equipo.&lt;/p&gt;
+&lt;/section&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;section&gt;</code> es útil para
+                    organizar el contenido en partes lógicas y temáticas.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <article> -->
+            <li>
+                <h2>&lt;article&gt;</h2>
+                <p><strong>Descripción:</strong> Define un contenido independiente y autocontenible, como un artículo de
+                    blog, una noticia o una entrada de foro.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;article&gt;
+    &lt;h2&gt;Título del Artículo&lt;/h2&gt;
+    &lt;p&gt;Este es el contenido del artículo. Aquí puedes poner texto, imágenes y otros elementos.&lt;/p&gt;
+&lt;/article&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;article&gt;</code> se utiliza para
+                    encapsular contenido que puede ser distribuido o reutilizado de manera independiente.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <aside> -->
+            <li>
+                <h2>&lt;aside&gt;</h2>
+                <p><strong>Descripción:</strong> Define un contenido relacionado que está separado del contenido
+                    principal, como una barra lateral, notas al margen o enlaces adicionales.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;aside&gt;
+    &lt;p&gt;Este es un contenido adicional relacionado, como un enlace a una noticia relacionada o un bloque de información complementaria.&lt;/p&gt;
+&lt;/aside&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;aside&gt;</code> se usa para
+                    información que está tangencialmente relacionada con el contenido principal pero que se puede leer
+                    por separado.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <footer> -->
+            <li>
+                <h2>&lt;footer&gt;</h2>
+                <p><strong>Descripción:</strong> Define el pie de página de un documento o sección. Generalmente
+                    contiene información de contacto, derechos de autor, o enlaces de navegación.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;footer&gt;
+    &lt;p&gt;© 2024 Mi Sitio Web&lt;/p&gt;
+    &lt;a href="contacto.html"&gt;Contacto&lt;/a&gt;
+&lt;/footer&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;footer&gt;</code> se utiliza para
+                    agrupar información que aparece al final de la página o sección.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <header> -->
+            <li>
+                <h2>&lt;header&gt;</h2>
+                <p><strong>Descripción:</strong> Define el encabezado de un documento o sección. Puede contener
+                    elementos como el logo, el título del sitio, y el menú de navegación.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;header&gt;
+    &lt;h1&gt;Mi Sitio Web&lt;/h1&gt;
+    &lt;nav&gt;
+        &lt;a href="index.html"&gt;Inicio&lt;/a&gt;
+        &lt;a href="acerca.html"&gt;Acerca de&lt;/a&gt;
+    &lt;/nav&gt;
+&lt;/header&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;header&gt;</code> se utiliza para
+                    definir el contenido introductorio o de navegación de una página o sección.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <h1> -->
+            <li>
+                <h2>&lt;h1&gt;</h2>
+                <p><strong>Descripción:</strong> Define el encabezado de nivel 1, utilizado para el título principal de
+                    la
+                    página.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;h1&gt;Título Principal&lt;/h1&gt;</pre>
+                <p><strong>Información adicional:</strong> Es el encabezado más importante y generalmente se usa una
+                    sola
+                    vez
+                    por
+                    página para el título principal.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <h2> -->
+            <li>
+                <h2>&lt;h2&gt;</h2>
+                <p><strong>Descripción:</strong> Define el encabezado de nivel 2, utilizado para secciones secundarias
+                    del
+                    contenido.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;h2&gt;Subtítulo&lt;/h2&gt;</pre>
+                <p><strong>Información adicional:</strong> Es útil para dividir el contenido en secciones principales.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <h3> -->
+            <li>
+                <h2>&lt;h3&gt;</h2>
+                <p><strong>Descripción:</strong> Define el encabezado de nivel 3, utilizado para subsecciones dentro de
+                    un
+                    encabezado de nivel 2.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;h3&gt;Subsección&lt;/h3&gt;</pre>
+                <p><strong>Información adicional:</strong> Ayuda a estructurar el contenido jerárquicamente.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <h4> -->
+            <li>
+
+                <h2>&lt;h4&gt;</h2>
+                <p><strong>Descripción:</strong> Define el encabezado de nivel 4, utilizado para subsecciones dentro de
+                    un
+                    encabezado de nivel 3.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;h4&gt;Detalles&lt;/h4&gt;</pre>
+                <p><strong>Información adicional:</strong> Se usa para subdividir aún más el contenido si es necesario.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <h5> -->
+            <li>
+                <h2>&lt;h5&gt;</h2>
+                <p><strong>Descripción:</strong> Define el encabezado de nivel 5, utilizado para subsecciones dentro de
+                    un
+                    encabezado de nivel 4.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;h5&gt;Más Detalles&lt;/h5&gt;</pre>
+                <p><strong>Información adicional:</strong> Es menos común, pero útil para una estructura de contenido
+                    más
+                    granular.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <h6> -->
+            <li>
+                <h2>&lt;h6&gt;</h2>
+                <p><strong>Descripción:</strong> Define el encabezado de nivel 6, utilizado para subsecciones dentro de
+                    un
+                    encabezado de nivel 5.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;h6&gt;El Más Bajo Nivel&lt;/h6&gt;</pre>
+                <p><strong>Información adicional:</strong> Es el encabezado menos importante y se usa raramente, pero
+                    puede
+                    ser
+                    útil
+                    para detalles menores.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <p> -->
+            <li>
+                <h2>&lt;p&gt;</h2>
+                <p><strong>Descripción:</strong> Define un párrafo de texto.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Este es un párrafo de ejemplo.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> Los párrafos se separan automáticamente con un espacio en
+                    blanco
+                    antes y
+                    después.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <hr> -->
+            <li>
+                <h2>&lt;hr&gt;</h2>
+                <p><strong>Descripción:</strong> Inserta una línea horizontal, a menudo utilizada para separar
+                    contenido.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;hr&gt;</pre>
+                <p><strong>Información adicional:</strong> No tiene etiqueta de cierre.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <pre> -->
+            <li>
+                <h2>&lt;pre&gt;</h2>
+                <p><strong>Descripción:</strong> Define texto preformateado, que conserva los espacios y saltos de
+                    línea.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;pre&gt;
+        Texto con
+        Espacios y
+        Saltos de línea
+    &lt;/pre&gt;</pre>
+                <p><strong>Información adicional:</strong> Útil para mostrar código o texto con formato específico.</p>
+            </li>
+            <br>
+
+
+            <!-- Ejemplo de etiqueta <blockquote> -->
+            <li>
+                <h2>&lt;blockquote&gt;</h2>
+                <p><strong>Descripción:</strong> Define una cita de bloque, generalmente usada para citas extensas.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;blockquote&gt;Cita de ejemplo&lt;/blockquote&gt;</pre>
+                <p><strong>Información adicional:</strong> Generalmente se usa con CSS para aplicar sangrías o estilos
+                    especiales.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <ul> -->
+            <li>
+                <h2>&lt;ul&gt;</h2>
+                <p><strong>Descripción:</strong> Define una lista desordenada.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;ul&gt;
+                    &lt;li&gt;Elemento 1&lt;/li&gt;
+                    &lt;li&gt;Elemento 2&lt;/li&gt;
+                    &lt;/ul&gt;</pre>
+                <p><strong>Información adicional:</strong> Los elementos de la lista se definen con la etiqueta
+                    &lt;li&gt;.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <ol> -->
+            <li>
+                <h2>&lt;ol&gt;</h2>
+                <p><strong>Descripción:</strong> Define una lista ordenada.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;ol&gt;
+                    &lt;li&gt;Primer elemento&lt;/li&gt;
+                    &lt;li&gt;Segundo elemento&lt;/li&gt;
+                    &lt;/ol&gt;</pre>
+                <p><strong>Información adicional:</strong> Los elementos de la lista se definen con la etiqueta
+                    &lt;li&gt;.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <li> -->
+            <li>
+                <h2>&lt;li&gt;</h2>
+                <p><strong>Descripción:</strong> Define un elemento de una lista. Se utiliza dentro de elementos de
+                    lista como <code>&lt;ul&gt;</code> (lista desordenada) o <code>&lt;ol&gt;</code> (lista ordenada).
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;ul&gt;
+                    &lt;li&gt;Elemento de lista 1&lt;/li&gt;
+                    &lt;li&gt;Elemento de lista 2&lt;/li&gt;
+                &lt;/ul&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;li&gt;</code> se usa para listar
+                    elementos en un formato ordenado o desordenado y puede contener otros elementos HTML, como texto,
+                    imágenes o enlaces.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <dl> -->
+            <li>
+                <h2>&lt;dl&gt;</h2>
+                <p><strong>Descripción:</strong> Define una lista de definiciones.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;dl&gt;
+        &lt;dt&gt;Término&lt;/dt&gt;
+        &lt;dd&gt;Definición del término&lt;/dd&gt;
+    &lt;/dl&gt;</pre>
+                <p><strong>Información adicional:</strong> Usa <code>&lt;dt&gt;</code> para términos y
+                    <code>&lt;dd&gt;</code> para definiciones.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <dt> -->
+            <li>
+                <h2>&lt;dt&gt;</h2>
+                <p><strong>Descripción:</strong> Define un término en una lista de definiciones.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;dl&gt;
+        &lt;dt&gt;Término&lt;/dt&gt;
+        &lt;dd&gt;Definición del término&lt;/dd&gt;
+    &lt;/dl&gt;</pre>
+                <p><strong>Información adicional:</strong> Se usa dentro de una lista <code>&lt;dl&gt;</code>.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <dd> -->
+            <li>
+                <h2>&lt;dd&gt;</h2>
+                <p><strong>Descripción:</strong> Define una definición o descripción en una lista de definiciones.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;dl&gt;
+        &lt;dt&gt;Término&lt;/dt&gt;
+        &lt;dd&gt;Definición del término&lt;/dd&gt;
+    &lt;/dl&gt;</pre>
+                <p><strong>Información adicional:</strong> Se usa para proporcionar información adicional sobre el
+                    término definido.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <figure> -->
+            <li>
+                <h2>&lt;figure&gt;</h2>
+                <p><strong>Descripción:</strong> Define un contenido de medios que puede ser independiente del contenido
+                    principal, como imágenes, gráficos, o videos. Generalmente se usa junto con
+                    <code>&lt;figcaption&gt;</code> para proporcionar una leyenda.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;figure&gt;
+    &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+    &lt;figcaption&gt;Esta es una imagen de ejemplo.&lt;/figcaption&gt;
+&lt;/figure&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;figure&gt;</code> agrupa el contenido
+                    relacionado, haciendo que sea más fácil agregar una leyenda o descripción y mantener la asociación
+                    entre la imagen y su descripción.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <figcaption> -->
+            <li>
+                <h2>&lt;figcaption&gt;</h2>
+                <p><strong>Descripción:</strong> Define una leyenda o descripción para el contenido de un elemento
+                    <code>&lt;figure&gt;</code>. Proporciona información adicional sobre el contenido representado en el
+                    <code>&lt;figure&gt;</code>.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;figure&gt;
+    &lt;img src="grafico.jpg" alt="Gráfico de ventas"&gt;
+    &lt;figcaption&gt;Gráfico que muestra las ventas trimestrales.&lt;/figcaption&gt;
+&lt;/figure&gt;</pre>
+                <p><strong>Información adicional:</strong> La etiqueta <code>&lt;figcaption&gt;</code> debe ser el
+                    primer o el último elemento dentro del elemento <code>&lt;figure&gt;</code>, y proporciona contexto
+                    o explicación adicional al contenido del <code>&lt;figure&gt;</code>.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <div> -->
+            <li>
+                <h2>&lt;div&gt;</h2>
+                <p><strong>Descripción:</strong> Define una sección o contenedor genérico en el documento.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;div&gt;Contenido del contenedor&lt;/div&gt;</pre>
+                <p><strong>Información adicional:</strong> Generalmente se usa junto con CSS para diseño y estilo.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <a> -->
+            <li>
+                <h2>&lt;a&gt;</h2>
+                <p><strong>Descripción:</strong> Define un hipervínculo. El atributo <code>href</code> especifica la URL
+                    del
+                    destino
+                    del enlace.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;a href="https://www.ejemplo.com"&gt;Visita Ejemplo&lt;/a&gt;</pre>
+                <p><strong>Información adicional:</strong> Puedes usar atributos adicionales como <code>target</code>
+                    para
+                    definir
+                    cómo se abrirá el enlace.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <b> -->
+            <li>
+                <h2>&lt;b&gt;</h2>
+                <p><strong>Descripción:</strong> Define un texto en negrita. Se usa para enfatizar el texto, pero no
+                    tiene un significado semántico adicional en HTML5.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Este es un texto en &lt;b&gt;negrita&lt;/b&gt;.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> La etiqueta <code>&lt;b&gt;</code> no debería usarse para
+                    enfatizar el texto. En su lugar, se recomienda usar <code>&lt;strong&gt;</code> para un énfasis
+                    semántico.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <i> -->
+            <li>
+                <h2>&lt;i&gt;</h2>
+                <p><strong>Descripción:</strong> Define un texto en cursiva. Se usa para representar texto en un estilo
+                    de cursiva, sin tener un significado semántico adicional en HTML5.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Este es un texto en &lt;i&gt;cursiva&lt;/i&gt;.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> La etiqueta <code>&lt;i&gt;</code> no debería usarse para
+                    resaltar o enfatizar el texto. En su lugar, se recomienda usar <code>&lt;em&gt;</code> para un
+                    énfasis semántico.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <u> -->
+            <li>
+                <h2>&lt;u&gt;</h2>
+                <p><strong>Descripción:</strong> Define un texto subrayado. Se usa para representar texto con una línea
+                    horizontal debajo, sin un significado semántico específico en HTML5.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Este es un texto &lt;u&gt;subrayado&lt;/u&gt;.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> La etiqueta <code>&lt;u&gt;</code> se usa principalmente para
+                    texto que debe ser subrayado, pero no tiene un significado semántico. Para enlaces, usa
+                    <code>&lt;a&gt;</code> con estilo de subrayado.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <strong> -->
+            <li>
+                <h2>&lt;strong&gt;</h2>
+                <p><strong>Descripción:</strong> Define texto con énfasis fuerte, generalmente renderizado en negrita.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;strong&gt;Texto en negrita&lt;/strong&gt;</pre>
+                <p><strong>Información adicional:</strong> Se utiliza para destacar partes importantes del texto.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <small> -->
+            <li>
+                <h2>&lt;small&gt;</h2>
+                <p><strong>Descripción:</strong> Define texto con un tamaño de fuente más pequeño que el texto
+                    circundante. Se usa para indicar texto secundario o de menor importancia.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Este es un texto normal y este es un texto &lt;small&gt;más pequeño&lt;/small&gt;.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> El tamaño de la fuente dentro de <code>&lt;small&gt;</code>
+                    puede variar dependiendo del estilo CSS aplicado al documento.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <sub> -->
+            <li>
+                <h2>&lt;sub&gt;</h2>
+                <p><strong>Descripción:</strong> Define texto que debe aparecer en subíndice. Se usa comúnmente en
+                    fórmulas químicas o matemáticas.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;El agua se representa como H&lt;sub&gt;2&lt;/sub&gt;O.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> El texto dentro de <code>&lt;sub&gt;</code> se muestra en una
+                    posición más baja que el texto normal, y con un tamaño de fuente más pequeño.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <sup> -->
+            <li>
+                <h2>&lt;sup&gt;</h2>
+                <p><strong>Descripción:</strong> Define texto que debe aparecer en superíndice. Se usa comúnmente en
+                    exponentes matemáticos o en notaciones científicas.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;El cuadrado de 2 se representa como 2&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> El texto dentro de <code>&lt;sup&gt;</code> se muestra en una
+                    posición más alta que el texto normal, y con un tamaño de fuente más pequeño.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <mark> -->
+            <li>
+                <h2>&lt;mark&gt;</h2>
+                <p><strong>Descripción:</strong> Define texto que debe ser resaltado, generalmente con un fondo
+                    amarillo. Se usa para destacar partes importantes del contenido.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Este es un texto &lt;mark&gt;resaltado&lt;/mark&gt; para destacar su importancia.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> El resaltado dentro de <code>&lt;mark&gt;</code> ayuda a
+                    llamar la atención sobre partes específicas del texto, como en búsquedas o resultados.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <cite> -->
+            <li>
+                <h2>&lt;cite&gt;</h2>
+                <p><strong>Descripción:</strong> Define el título de una obra o referencia.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;cite&gt;Título de la obra&lt;/cite&gt;</pre>
+                <p><strong>Información adicional:</strong> Se usa para indicar la fuente de una cita o referencia.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <span> -->
+            <li>
+                <h2>&lt;span&gt;</h2>
+                <p><strong>Descripción:</strong> Define una sección o contenedor en línea, útil para aplicar estilos o
+                    manipular parte del texto.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;span&gt;Texto en línea&lt;/span&gt;</pre>
+                <p><strong>Información adicional:</strong> A menudo se usa junto con CSS para aplicar estilos a una
+                    porción específica del contenido.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <br> -->
+            <li>
+                <h2>&lt;br&gt;</h2>
+                <p><strong>Descripción:</strong> Inserta un salto de línea en el texto.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>Primera línea&lt;br&gt;Segunda línea</pre>
+                <p><strong>Información adicional:</strong> No tiene etiqueta de cierre.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <img> -->
+            <li>
+                <h2>&lt;img&gt;</h2>
+                <p><strong>Descripción:</strong> Inserta una imagen en la página. El atributo <code>src</code>
+                    especifica la
+                    URL
+                    de
+                    la imagen.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;</pre>
+                <p><strong>Información adicional:</strong> Puedes usar atributos como <code>width</code> y
+                    <code>height</code>
+                    para
+                    ajustar el tamaño de la imagen.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <canvas> -->
+            <li>
+                <h2>&lt;canvas&gt;</h2>
+                <p><strong>Descripción:</strong> Define un área en la que se puede dibujar gráficos mediante scripting,
+                    como JavaScript. Se utiliza para crear gráficos, animaciones, y otras imágenes dinámicas.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;canvas id="miCanvas" width="200" height="200"&gt;Su navegador no soporta el elemento &lt;canvas&gt;.&lt;/canvas&gt;
+&lt;script&gt;
+    var canvas = document.getElementById('miCanvas');
+    var context = canvas.getContext('2d');
+    context.fillStyle = 'blue';
+    context.fillRect(10, 10, 150, 100);
+&lt;/script&gt;</pre>
+                <p><strong>Información adicional:</strong> El contexto del lienzo se obtiene mediante
+                    <code>getContext('2d')</code> para gráficos 2D o <code>getContext('webgl')</code> para gráficos 3D.
+                    El lienzo se utiliza con JavaScript para dibujar y manipular gráficos dinámicamente.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <iframe> -->
+            <li>
+                <h2>&lt;iframe&gt;</h2>
+                <p><strong>Descripción:</strong> Define un marco embebido que puede mostrar otra página HTML dentro de
+                    la página actual.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;iframe src="https://www.ejemplo.com" width="600" height="400"&gt;&lt;/iframe&gt;</pre>
+                <p><strong>Información adicional:</strong> Puedes usar atributos como <code>width</code> y
+                    <code>height</code> para ajustar el tamaño del marco.
+                </p>
+            </li>
+
+
+            <!-- Ejemplo de etiqueta <embed> -->
+            <li>
+                <h2>&lt;embed&gt;</h2>
+                <p><strong>Descripción:</strong> Define un contenido externo embebido, como un archivo multimedia o
+                    documento.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;embed src="video.mp4" type="video/mp4" width="640" height="480"&gt;</pre>
+                <p><strong>Información adicional:</strong> A menudo se usa para integrar archivos multimedia
+                    directamente en la página.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <object> -->
+            <li>
+                <h2>&lt;object&gt;</h2>
+                <p><strong>Descripción:</strong> Define un objeto embebido, que puede ser un archivo multimedia, applet
+                    o documento.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;object data="documento.pdf" type="application/pdf" width="600" height="400"&gt;&lt;/object&gt;</pre>
+                <p><strong>Información adicional:</strong> Utiliza el atributo <code>data</code> para especificar la
+                    fuente del objeto.</p>
+            </li>
+            <br>
+
+
+            <!-- Ejemplo de etiqueta <audio> -->
+            <li>
+                <h2>&lt;audio&gt;</h2>
+                <p><strong>Descripción:</strong> Define contenido de audio. Puedes usar atributos para controlar la
+                    reproducción.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;audio controls&gt;
+&lt;source src="audio.mp3" type="audio/mpeg"&gt;
+Su navegador no soporta el elemento audio.
+&lt;/audio&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>controls</code> muestra los controles de
+                    reproducción.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <video> -->
+            <li>
+                <h2>&lt;video&gt;</h2>
+                <p><strong>Descripción:</strong> Define contenido de video. Puedes especificar múltiples fuentes y usar
+                    atributos para controlar la reproducción.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;video width="640" height="480" controls&gt;
+&lt;source src="video.mp4" type="video/mp4"&gt;
+Su navegador no soporta el elemento video.
+&lt;/video&gt;</pre>
+                <p><strong>Información adicional:</strong> Puedes incluir múltiples fuentes dentro del elemento
+                    <code>&lt;video&gt;</code> para compatibilidad con diferentes formatos.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <source> -->
+            <li>
+                <h2>&lt;source&gt;</h2>
+                <p><strong>Descripción:</strong> Define múltiples fuentes para elementos <code>&lt;video&gt;</code> o
+                    <code>&lt;audio&gt;</code>, permitiendo la selección de diferentes formatos.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;video controls&gt;
+&lt;source src="video.mp4" type="video/mp4"&gt;
+&lt;source src="video.ogv" type="video/ogg"&gt;
+Su navegador no soporta el elemento video.
+&lt;/video&gt;</pre>
+                <p><strong>Información adicional:</strong> Los navegadores seleccionarán automáticamente el primer
+                    formato soportado.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <svg> -->
+            <li>
+                <h2>&lt;svg&gt;</h2>
+                <p><strong>Descripción:</strong> Define un contenedor para gráficos vectoriales escalables (SVG) en el
+                    documento HTML. Permite dibujar gráficos, formas, y otros elementos gráficos utilizando una sintaxis
+                    basada en XML.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"&gt;
+        &lt;circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" /&gt;
+        &lt;rect x="10" y="10" width="30" height="30" stroke="black" stroke-width="2" fill="blue" /&gt;
+        &lt;line x1="10" y1="80" x2="90" y2="80" stroke="black" stroke-width="2" /&gt;
+    &lt;/svg&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;svg&gt;</code> puede contener varios
+                    elementos gráficos como <code>&lt;circle&gt;</code>, <code>&lt;rect&gt;</code>, y
+                    <code>&lt;line&gt;</code>. Los gráficos SVG son escalables, lo que significa que se pueden
+                    redimensionar sin perder calidad.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <table> -->
+            <li>
+                <h2>&lt;table&gt;</h2>
+                <p><strong>Descripción:</strong> Define una tabla.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Encabezado 1&lt;/th&gt;
+        &lt;th&gt;Encabezado 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Celda 1&lt;/td&gt;
+        &lt;td&gt;Celda 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/table&gt;</pre>
+                <p><strong>Información adicional:</strong> Usa &lt;tr&gt; para filas, &lt;th&gt; para encabezados y
+                    &lt;td&gt;
+                    para
+                    celdas.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <caption> -->
+            <li>
+                <h2>&lt;caption&gt;</h2>
+                <p><strong>Descripción:</strong> Define un título para una tabla. Se coloca dentro del elemento
+                    <code>&lt;table&gt;</code>.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;table&gt;
+    &lt;caption&gt;Título de la Tabla&lt;/caption&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Encabezado 1&lt;/th&gt;
+        &lt;th&gt;Encabezado 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Dato 1&lt;/td&gt;
+        &lt;td&gt;Dato 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;caption&gt;</code> es opcional y se usa
+                    para proporcionar un título o descripción a la tabla.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <colgroup> -->
+            <li>
+                <h2>&lt;colgroup&gt;</h2>
+                <p><strong>Descripción:</strong> Agrupa uno o más elementos <code>&lt;col&gt;</code> para aplicar
+                    propiedades de estilo a columnas específicas en una tabla.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;table&gt;
+    &lt;colgroup&gt;
+        &lt;col style="background-color: #f2f2f2"&gt;
+        &lt;col style="background-color: #e6e6e6"&gt;
+    &lt;/colgroup&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Encabezado 1&lt;/th&gt;
+        &lt;th&gt;Encabezado 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Dato 1&lt;/td&gt;
+        &lt;td&gt;Dato 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;colgroup&gt;</code> se utiliza para
+                    aplicar estilos o atributos a grupos de columnas en una tabla.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <tbody> -->
+            <li>
+                <h2>&lt;tbody&gt;</h2>
+                <p><strong>Descripción:</strong> Define un cuerpo de una tabla en HTML, agrupando filas de datos.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;table&gt;
+        &lt;thead&gt;&lt;tr&gt;&lt;th&gt;Encabezado&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;&lt;td&gt;Dato 1&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;Dato 2&lt;/td&gt;&lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;</pre>
+                <p><strong>Información adicional:</strong> Agrupa las filas de datos en una tabla, separándolas de los
+                    encabezados y el pie de página.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <thead> -->
+            <li>
+                <h2>&lt;thead&gt;</h2>
+                <p><strong>Descripción:</strong> Define un grupo de encabezados en una tabla HTML.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;table&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Encabezado 1&lt;/th&gt;
+                &lt;th&gt;Encabezado 2&lt;/th&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;&lt;!-- Filas de datos --&gt;&lt;/tbody&gt;
+    &lt;/table&gt;</pre>
+                <p><strong>Información adicional:</strong> Se usa para agrupar los encabezados de la tabla y mejorar la
+                    legibilidad y el diseño.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <tfoot> -->
+            <li>
+                <h2>&lt;tfoot&gt;</h2>
+                <p><strong>Descripción:</strong> Define un grupo de pie de tabla en HTML, generalmente usado para
+                    sumarizar o proporcionar información adicional.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;table&gt;
+        &lt;tfoot&gt;
+            &lt;tr&gt;
+                &lt;td colspan="2"&gt;Total:&lt;/td&gt;
+                &lt;td&gt;$100&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tfoot&gt;
+        &lt;tbody&gt;&lt;!-- Filas de datos --&gt;&lt;/tbody&gt;
+    &lt;/table&gt;</pre>
+                <p><strong>Información adicional:</strong> Es útil para proporcionar sumarios, totales o notas al pie de
+                    la tabla.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <tr> -->
+            <li>
+                <h2>&lt;tr&gt;</h2>
+                <p><strong>Descripción:</strong> Define una fila en una tabla. Se utiliza dentro de los elementos
+                    <code>&lt;table&gt;</code>, <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code> y
+                    <code>&lt;tfoot&gt;</code>.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Celda 1&lt;/td&gt;
+        &lt;td&gt;Celda 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
+                <p><strong>Información adicional:</strong> Cada fila en la tabla se define con un elemento
+                    <code>&lt;tr&gt;</code>, y dentro de cada fila puedes colocar celdas con <code>&lt;td&gt;</code> o
+                    <code>&lt;th&gt;</code>.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <td> -->
+            <li>
+                <h2>&lt;td&gt;</h2>
+                <p><strong>Descripción:</strong> Define una celda en una fila de una tabla. Se utiliza dentro del
+                    elemento <code>&lt;tr&gt;</code>.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Celda 1&lt;/td&gt;
+        &lt;td&gt;Celda 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;td&gt;</code> representa una celda en
+                    una tabla que puede contener texto, imágenes, enlaces u otros elementos HTML.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <th> -->
+            <li>
+                <h2>&lt;th&gt;</h2>
+                <p><strong>Descripción:</strong> Define una celda de encabezado en una tabla. Se utiliza dentro del
+                    elemento <code>&lt;tr&gt;</code> y el texto se muestra en negrita y centrado por defecto.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Encabezado 1&lt;/th&gt;
+        &lt;th&gt;Encabezado 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Celda 1&lt;/td&gt;
+        &lt;td&gt;Celda 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;th&gt;</code> se utiliza para definir
+                    encabezados de columnas o filas en una tabla, proporcionando una forma clara de organizar la
+                    información.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <fieldset> -->
+            <li>
+                <h2>&lt;fieldset&gt;</h2>
+                <p><strong>Descripción:</strong> Agrupa controles relacionados dentro de un formulario.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;fieldset&gt;
+        &lt;legend&gt;Información Personal&lt;/legend&gt;
+        Nombre: &lt;input type="text"&gt;<br>
+        Edad: &lt;input type="number"&gt;
+    &lt;/fieldset&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;legend&gt;</code> se usa para
+                    proporcionar una etiqueta para el grupo.</p>
+            </li>
+
+            <!-- Ejemplo de etiqueta <legend> -->
+            <li>
+                <h2>&lt;legend&gt;</h2>
+                <p><strong>Descripción:</strong> Define una leyenda para un grupo de controles en un formulario, dentro
+                    de un <code>&lt;fieldset&gt;</code>.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;fieldset&gt;
+        &lt;legend&gt;Información Personal&lt;/legend&gt;
+        Nombre: &lt;input type="text"&gt;<br>
+        Edad: &lt;input type="number"&gt;
+    &lt;/fieldset&gt;</pre>
+                <p><strong>Información adicional:</strong> Proporciona un título o descripción para el contenido del
+                    <code>&lt;fieldset&gt;</code>.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <label> -->
+            <li>
+                <h2>&lt;label&gt;</h2>
+                <p><strong>Descripción:</strong> Define una etiqueta para un control de formulario.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+    &lt;input type="text" id="nombre" name="nombre"&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>for</code> asocia la etiqueta con el
+                    control de formulario correspondiente.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <input> -->
+            <li>
+                <h2>&lt;input&gt;</h2>
+                <p><strong>Descripción:</strong> Define un campo de entrada en un formulario.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;input type="text" name="nombre"&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>type</code> define el tipo de campo (texto,
+                    contraseña,
+                    etc.).</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <button> -->
+            <li>
+                <h2>&lt;button&gt;</h2>
+                <p><strong>Descripción:</strong> Define un botón que se puede hacer clic.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;button type="button"&gt;Haz clic&lt;/button&gt;</pre>
+                <p><strong>Información adicional:</strong> Puedes usar el atributo <code>type</code> para definir el
+                    comportamiento
+                    del botón.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <select> -->
+            <li>
+                <h2>&lt;select&gt;</h2>
+                <p><strong>Descripción:</strong> Define un menú desplegable.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;select name="opcion"&gt;
+        &lt;option value="1"&gt;Opción 1&lt;/option&gt;
+        &lt;option value="2"&gt;Opción 2&lt;/option&gt;
+        &lt;/select&gt;</pre>
+                <p><strong>Información adicional:</strong> Los elementos del menú se definen con la etiqueta
+                    &lt;option&gt;.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <option> -->
+            <li>
+                <h2>&lt;option&gt;</h2>
+                <p><strong>Descripción:</strong> Define una opción en un menú desplegable dentro de un elemento
+                    <code>&lt;select&gt;</code>. Cada <code>&lt;option&gt;</code> representa una opción individual que
+                    el usuario puede seleccionar.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;select&gt;
+    &lt;option value="1"&gt;Opción 1&lt;/option&gt;
+    &lt;option value="2"&gt;Opción 2&lt;/option&gt;
+    &lt;option value="3"&gt;Opción 3&lt;/option&gt;
+&lt;/select&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>value</code> del
+                    <code>&lt;option&gt;</code> especifica el valor que se enviará al servidor cuando se envíe el
+                    formulario. También puedes usar el atributo <code>selected</code> para preseleccionar una opción.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <textarea> -->
+            <li>
+                <h2>&lt;textarea&gt;</h2>
+                <p><strong>Descripción:</strong> Define un área de texto multilínea.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;textarea name="comentario"&gt;Escribe aquí&lt;/textarea&gt;</pre>
+                <p><strong>Información adicional:</strong> Puedes usar atributos como <code>rows</code> y
+                    <code>cols</code>
+                    para
+                    ajustar el tamaño del área de texto.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <form> -->
+            <li>
+                <h2>&lt;form&gt;</h2>
+                <p><strong>Descripción:</strong> Define un formulario para la entrada del usuario.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;form action="/enviar" method="post"&gt;
+    &lt;input type="text" name="nombre"&gt;
+    &lt;input type="submit" value="Enviar"&gt;
+    &lt;/form&gt;</pre>
+                <p><strong>Información adicional:</strong> Usa el atributo <code>action</code> para definir a dónde se
+                    envía
+                    el
+                    formulario.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <label> -->
+            <li>
+                <h2>&lt;label&gt;</h2>
+                <p><strong>Descripción:</strong> Define una etiqueta para un elemento de formulario.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+    &lt;input type="text" id="nombre" name="nombre"&gt;</pre>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <em> -->
+            <li>
+                <h2>&lt;em&gt;</h2>
+                <p><strong>Descripción:</strong> Define texto con énfasis, generalmente renderizado en cursiva.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;em&gt;Texto en cursiva&lt;/em&gt;</pre>
+                <p><strong>Información adicional:</strong> Se usa para enfatizar palabras o frases en el texto.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <code> -->
+            <li>
+                <h2>&lt;code&gt;</h2>
+                <p><strong>Descripción:</strong> Define un fragmento de código.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;code&gt;Código de ejemplo&lt;/code&gt;</pre>
+                <p><strong>Información adicional:</strong> Usado para mostrar texto en formato monoespaciado.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <abbr> -->
+            <li>
+                <h2>&lt;abbr&gt;</h2>
+                <p><strong>Descripción:</strong> Define una abreviatura o acrónimo. El atributo <code>title</code>
+                    proporciona la expansión.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>title</code> muestra el texto completo al
+                    pasar el cursor sobre la abreviatura.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <address> -->
+            <li>
+                <h2>&lt;address&gt;</h2>
+                <p><strong>Descripción:</strong> Define información de contacto del autor o propietario del documento.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;address&gt;
+    Calle Ejemplo, 123<br>
+    Ciudad, País
+&lt;/address&gt;</pre>
+                <p><strong>Información adicional:</strong> Generalmente se usa para mostrar detalles de contacto.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <details> -->
+            <li>
+                <h2>&lt;details&gt;</h2>
+                <p><strong>Descripción:</strong> Define un control de detalles que puede ser abierto o cerrado por el
+                    usuario.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;details&gt;
+    &lt;summary&gt;Más información&lt;/summary&gt;
+    Detalles adicionales que se muestran cuando el usuario expande el contenido.
+&lt;/details&gt;</pre>
+                <p><strong>Información adicional:</strong> Utiliza el elemento <code>&lt;summary&gt;</code> para
+                    proporcionar un título que se puede hacer clic para expandir o contraer el contenido.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <summary> -->
+            <li>
+                <h2>&lt;summary&gt;</h2>
+                <p><strong>Descripción:</strong> Define el título visible de un elemento <code>&lt;details&gt;</code>,
+                    que puede ser clicado para mostrar u ocultar el contenido.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;details&gt;
+    &lt;summary&gt;Resumen de detalles&lt;/summary&gt;
+    Información adicional que se muestra al expandir el resumen.
+&lt;/details&gt;</pre>
+                <p><strong>Información adicional:</strong> Es obligatorio incluir <code>&lt;summary&gt;</code> dentro de
+                    <code>&lt;details&gt;</code>.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <form> -->
+            <li>
+                <h2>&lt;form&gt;</h2>
+                <p><strong>Descripción:</strong> Define un formulario para la entrada del usuario.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;form action="/enviar" method="post"&gt;
+    Nombre: &lt;input type="text" name="nombre"&gt;<br>
+    &lt;input type="submit" value="Enviar"&gt;
+&lt;/form&gt;</pre>
+                <p><strong>Información adicional:</strong> Los atributos <code>action</code> y <code>method</code>
+                    especifican el destino y el método de envío del formulario.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <input> -->
+            <li>
+                <h2>&lt;input&gt;</h2>
+                <p><strong>Descripción:</strong> Define un campo de entrada en un formulario.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;input type="text" name="usuario" placeholder="Introduce tu nombre"&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>type</code> define el tipo de entrada, como
+                    texto, botón, etc.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <button> -->
+            <li>
+                <h2>&lt;button&gt;</h2>
+                <p><strong>Descripción:</strong> Define un botón interactivo en un formulario o interfaz.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;button type="submit"&gt;Enviar&lt;/button&gt;</pre>
+                <p><strong>Información adicional:</strong> Puedes usar el atributo <code>type</code> para especificar el
+                    tipo de botón (submit, button, reset).</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <bdo> -->
+            <li>
+                <h2>&lt;bdo&gt;</h2>
+                <p><strong>Descripción:</strong> Define el texto que debe mostrarse en un orden de dirección específico,
+                    como de derecha a izquierda o viceversa. Es útil para cambiar la dirección del texto en documentos
+                    multilingües.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Texto normal, &lt;bdo dir="rtl"&gt;texto en dirección de derecha a izquierda&lt;/bdo&gt;.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>dir</code> puede tomar valores como
+                    <code>"ltr"</code> (de izquierda a derecha) y <code>"rtl"</code> (de derecha a izquierda).
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <q> -->
+            <li>
+                <h2>&lt;q&gt;</h2>
+                <p><strong>Descripción:</strong> Define una cita en línea corta. El navegador suele agregar
+                    automáticamente comillas alrededor del contenido.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Ella dijo: &lt;q&gt;Hola, ¿cómo estás?&lt;/q&gt;&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> La etiqueta <code>&lt;q&gt;</code> es para citas cortas. Para
+                    citas más largas, utiliza <code>&lt;blockquote&gt;</code>.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <ins> -->
+            <li>
+                <h2>&lt;ins&gt;</h2>
+                <p><strong>Descripción:</strong> Define el contenido que se ha insertado en el documento. Generalmente
+                    se utiliza con una línea debajo para indicar que se ha agregado nuevo contenido.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Texto original. &lt;ins&gt;Texto añadido.&lt;/ins&gt; Texto adicional.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> Se puede utilizar el atributo <code>datetime</code> para
+                    especificar la fecha y hora en que se realizó la inserción.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <del> -->
+            <li>
+                <h2>&lt;del&gt;</h2>
+                <p><strong>Descripción:</strong> Define el contenido que se ha eliminado del documento. Usualmente se
+                    muestra con una línea en el medio para indicar que se ha borrado.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Texto original. &lt;del&gt;Texto eliminado.&lt;/del&gt; Texto adicional.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>datetime</code> también se puede usar para
+                    especificar la fecha y hora en que se eliminó el contenido.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <dfn> -->
+            <li>
+                <h2>&lt;dfn&gt;</h2>
+                <p><strong>Descripción:</strong> Define una definición de un término. Se usa en conjunto con una
+                    definición de término o para destacar un término que está siendo definido.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;El término &lt;dfn&gt;HTML&lt;/dfn&gt; significa HyperText Markup Language.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;dfn&gt;</code> generalmente se usa en
+                    el contexto de definir términos técnicos o especializados en un documento.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <kbd> -->
+            <li>
+                <h2>&lt;kbd&gt;</h2>
+                <p><strong>Descripción:</strong> Define la entrada del teclado, como los comandos o combinaciones de
+                    teclas que el usuario debe presionar.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Presiona &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt; para guardar.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;kbd&gt;</code> se utiliza para
+                    representar texto que el usuario debe ingresar desde un teclado.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <samp> -->
+            <li>
+                <h2>&lt;samp&gt;</h2>
+                <p><strong>Descripción:</strong> Define una muestra de salida de un programa o sistema. Se usa para
+                    mostrar el texto que representa la salida generada por un programa.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Salida del programa: &lt;samp&gt;Error: archivo no encontrado&lt;/samp&gt;.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> El texto dentro de <code>&lt;samp&gt;</code> se muestra con
+                    un estilo monoespaciado, similar al que se utiliza en la salida de la consola.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <var> -->
+            <li>
+                <h2>&lt;var&gt;</h2>
+                <p><strong>Descripción:</strong> Define una variable en un contexto matemático o de programación. Se
+                    utiliza para representar variables en expresiones o fórmulas.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;En la fórmula &lt;var&gt;x&lt;/var&gt; + &lt;var&gt;y&lt;/var&gt; = &lt;var&gt;z&lt;/var&gt;, &lt;var&gt;x&lt;/var&gt; y &lt;var&gt;y&lt;/var&gt; son variables.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;var&gt;</code> es útil para representar
+                    variables en expresiones matemáticas o en ejemplos de código.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <base> -->
+            <li>
+                <h2>&lt;base&gt;</h2>
+                <p><strong>Descripción:</strong> Define la URL base para todas las URLs relativas en un documento. Debe
+                    estar dentro del elemento <code>&lt;head&gt;</code>.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;head&gt;
+    &lt;base href="https://www.ejemplo.com/" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href="pagina.html"&gt;Enlace a la página&lt;/a&gt;
+&lt;/body&gt;</pre>
+                <p><strong>Información adicional:</strong> La etiqueta <code>&lt;base&gt;</code> debe ser la primera en
+                    el <code>&lt;head&gt;</code> y establece una base para todas las URLs relativas en el documento.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <area> -->
+            <li>
+                <h2>&lt;area&gt;</h2>
+                <p><strong>Descripción:</strong> Define una región activa dentro de un mapa de imagen. Se usa dentro de
+                    un elemento <code>&lt;map&gt;</code> para definir áreas clicables en una imagen.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;map name="mapaEjemplo"&gt;
+    &lt;area shape="rect" coords="34,44,270,350" href="pagina.html" alt="Descripción del área"&gt;
+&lt;/map&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>shape</code> define la forma del área (por
+                    ejemplo, <code>rect</code> para rectángulo, <code>circle</code> para círculo), y <code>coords</code>
+                    define las coordenadas de la forma.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <map> -->
+            <li>
+                <h2>&lt;map&gt;</h2>
+                <p><strong>Descripción:</strong> Define un mapa de imagen, que es una imagen con áreas clicables. Se usa
+                    junto con <code>&lt;area&gt;</code> para crear enlaces en diferentes partes de la imagen.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;img src="imagen.jpg" usemap="#mapaEjemplo" alt="Imagen con mapa"&gt;
+&lt;map name="mapaEjemplo"&gt;
+    &lt;area shape="rect" coords="34,44,270,350" href="pagina.html" alt="Descripción del área"&gt;
+&lt;/map&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>usemap</code> en la imagen se usa para
+                    asociar la imagen con el mapa definido.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <param> -->
+            <li>
+                <h2>&lt;param&gt;</h2>
+                <p><strong>Descripción:</strong> Define parámetros para un objeto embebido en el documento. Se usa
+                    dentro del elemento <code>&lt;object&gt;</code> para pasar parámetros a los objetos.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;object data="archivo.swf" type="application/x-shockwave-flash"&gt;
+    &lt;param name="autoplay" value="true"&gt;
+    &lt;param name="loop" value="false"&gt;
+&lt;/object&gt;</pre>
+                <p><strong>Información adicional:</strong> Los parámetros definidos con <code>&lt;param&gt;</code> son
+                    utilizados por el objeto embebido para configurar su comportamiento o apariencia.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta comentario ... --> 
+            <li>
+                <h2>&lt;!-- ... --&gt;</h2>
+                <p><strong>Descripción:</strong> Define un comentario en el código HTML. Los comentarios no son visibles
+                    en el navegador y se utilizan para agregar notas o explicaciones en el código fuente.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;!-- Este es un comentario en HTML --&gt;</pre>
+                <p><strong>Información adicional:</strong> Los comentarios pueden contener cualquier texto, pero no se
+                    deben usar para ocultar contenido HTML ya que puede ser visible para usuarios con herramientas de
+                    desarrollo.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <hgroup> -->
+            <li>
+                <h2>&lt;hgroup&gt;</h2>
+                <p><strong>Descripción:</strong> Agrupa varios elementos de encabezado (`&lt;h1&gt;`, `&lt;h2&gt;`,
+                    `&lt;h3&gt;`, etc.) en una única unidad, de manera que se traten como un solo bloque para el
+                    propósito de la jerarquía de encabezados.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;hgroup&gt;
+    &lt;h1&gt;Título Principal&lt;/h1&gt;
+    &lt;h2&gt;Subtítulo&lt;/h2&gt;
+&lt;/hgroup&gt;</pre>
+                <p><strong>Información adicional:</strong> El elemento <code>&lt;hgroup&gt;</code> se ha
+                    vuelto obsoleto en HTML5 y se recomienda usar `&lt;header&gt;` en su lugar para agrupar encabezados.
+                </p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <s> -->
+            <li>
+                <h2>&lt;s&gt;</h2>
+                <p><strong>Descripción:</strong> Define texto con una línea a través de él, generalmente usado para
+                    indicar que el texto está obsoleto o ha sido reemplazado.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Texto original con &lt;s&gt;texto tachado&lt;/s&gt; tachado.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> La etiqueta <code>&lt;s&gt;</code> se usa para representar
+                    texto que ya no es relevante o que ha sido reemplazado por otra cosa. Para eliminar texto con
+                    significado semántico, usa <code>&lt;del&gt;</code>.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <time> -->
+            <li>
+                <h2>&lt;time&gt;</h2>
+                <p><strong>Descripción:</strong> Define una fecha y/o hora en el documento. Facilita la representación y
+                    el manejo de fechas y horas en el formato de datos.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;time datetime="2024-09-11T14:00"&gt;11 de septiembre de 2024, 14:00&lt;/time&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>datetime</code> especifica la fecha y hora
+                    en formato de fecha y hora ISO 8601. Esto facilita la integración con otras aplicaciones y
+                    servicios.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <track> -->
+            <li>
+                <h2>&lt;track&gt;</h2>
+                <p><strong>Descripción:</strong> Define pistas de texto para elementos `&lt;video&gt;` y
+                    `&lt;audio&gt;`. Permite
+                    añadir subtítulos, descripciones, o capítulos a los medios.</p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;video controls&gt;
+    &lt;source src="video.mp4" type="video/mp4"&gt;
+    &lt;track src="subtitulos_en.srt" kind="subtitles" srclang="es" label="Español"&gt;
+&lt;/video&gt;</pre>
+                <p><strong>Información adicional:</strong> El atributo <code>kind</code> puede ser "subtitles",
+                    "captions", "descriptions", o "chapters". El atributo <code>srclang</code> define el idioma de la
+                    pista.</p>
+            </li>
+            <br>
+
+            <!-- Ejemplo de etiqueta <wbr> -->
+            <li>
+                <h2>&lt;wbr&gt;</h2>
+                <p><strong>Descripción:</strong> Define una sugerencia de lugar donde se puede romper una palabra en la
+                    visualización. Ayuda a controlar el punto en el que una palabra larga se puede dividir en una línea.
+                </p>
+                <p><strong>Ejemplo de uso:</strong></p>
+                <pre>&lt;p&gt;Texto muy largo que podría necesitar un &lt;wbr&gt;quebrantamiento&lt;/wbr&gt; en la línea.&lt;/p&gt;</pre>
+                <p><strong>Información adicional:</strong> La etiqueta <code>&lt;wbr&gt;</code> es una sugerencia para
+                    los navegadores sobre dónde permitir el salto de línea. No garantiza que se produzca un salto de
+                    línea, pero proporciona una guía.</p>
+            </li>
+            <br>
+
+        </ol>
+
+    </main>
+
+</body>
+
+</html>
